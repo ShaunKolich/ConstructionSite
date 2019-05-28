@@ -244,11 +244,11 @@ table {
 }
 .main_container .middle_content_container .num_of_emp i {
   font-size: 24pt;
-  color: orangered;
+  color: #ffa318;
 }
 .main_container .middle_content_container .num_of_emp p {
   font-size: 1rem;
-  color: orangered;
+  color: #ffa318;
   padding: 10px;
 }
 .main_container .middle_content_container .num_years {
@@ -261,11 +261,11 @@ table {
 }
 .main_container .middle_content_container .num_years i {
   font-size: 24pt;
-  color: orangered;
+  color: #ffa318;
 }
 .main_container .middle_content_container .num_years p {
   font-size: 1rem;
-  color: orangered;
+  color: #ffa318;
   padding: 10px;
 }
 .main_container .middle_content_container .num_projects {
@@ -277,11 +277,11 @@ table {
 }
 .main_container .middle_content_container .num_projects i {
   font-size: 24pt;
-  color: orangered;
+  color: #ffa318;
 }
 .main_container .middle_content_container .num_projects p {
   font-size: 1rem;
-  color: orangered;
+  color: #ffa318;
   padding: 10px;
 }
 .main_container .our_projects {
@@ -291,9 +291,34 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .main_container .our_projects h1 {
   font-size: 24pt;
   font-weight: 400;
   color: white;
+  margin-bottom: 20px;
+}
+.main_container .our_projects .button_container {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+.main_container .our_projects .button_container ul {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 50px;
+  cursor: pointer;
+  height: 30px;
+  width: 120px;
+  background-color: #3f3e3e;
+  color: white;
+  border: #3f3e3e;
+  font-size: 12pt;
+}
+.main_container .our_projects .button_container ul:hover {
+  background-color: #ffa318;
+  color: #3f3e3e;
+  border: none;
 }

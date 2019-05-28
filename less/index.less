@@ -283,12 +283,12 @@ table {
 
             i {
                 font-size: 24pt;
-                color: orangered;
+                color: rgb(255, 163, 24);
             }
 
             p {
                 font-size: 1.0rem;
-                color: orangered;
+                color: rgb(255, 163, 24);
                 padding: 10px;
             }
         }
@@ -304,12 +304,12 @@ table {
 
             i {
                 font-size: 24pt;
-                color: orangered;
+                color: rgb(255, 163, 24);
             }
 
             p {
                 font-size: 1.0rem;
-                color: orangered;
+                color: rgb(255, 163, 24);
                 padding: 10px;
             }
         }
@@ -324,12 +324,12 @@ table {
 
             i {
                 font-size: 24pt;
-                color: orangered;
+                color: rgb(255, 163, 24);
             }
 
             p {
                 font-size: 1.0rem;
-                color: orangered;
+                color: rgb(255, 163, 24);
                 padding: 10px;
             }
         }
@@ -343,14 +343,45 @@ table {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
 
         h1 {
-            font-size:24pt;
+            font-size: 24pt;
             font-weight: 400;
-            color:white;
+            color: white;
+            margin-bottom: 20px;
         }
 
-    }
+        .button_container {
+            width: 100%;
+            height: 75px;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
 
+            ul {
+                text-align: center;
+                margin-top: 10px;
+                margin-right: 50px;
+                cursor: pointer;
+                height: 30px;
+                width: 120px;
+                background-color: rgb(63, 62, 62);
+                color: white;
+                border: rgb(63, 62, 62);;
+                font-size: 12pt;
+
+            }
+
+            ul:hover {
+                background-color: rgb(255, 163, 24);
+                color: rgb(63, 62, 62);
+                border: none;
+            }
+
+
+
+        }
+    }
 
 }
