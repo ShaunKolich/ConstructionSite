@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Construction Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:600|Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- JS Files -->
+    <script src="" async defer></script>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="main_container">
+        <section class="top_translate_container">
+
+
+        </section>
+        <section class="logo_contact_container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="contact_info">
+                <ul><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Our Location</br>
+                    ---Location----</ul>
+                <ul><i class="fa fa-mobile" aria-hidden="true"></i>
+                    Phone Number</br>
+                    ---Email Address----</ul>
+                <ul><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Hours of Operation</br>
+                    ---Hours----</ul>
+
+            </div>
+
+        </section>
+
+        <div class="middle_container" id="about_background">
+            <nav class="top_nav_bar">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About Company</a>
+                    <a href="#">Our Services</a>
+                    <a href="#" id="contact">Contact Us</a>
+                </nav>
+
+                <section class="info_container">
+                    <h2>About Our Company</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <img src="img/adult-blur-businessman-288477.jpg">
+                </section>
+            </nav>
+        </div>
+        <section class="slogan_container" id="about_people">
+            <h2>Our Leaders</h2>
+        </section>
+        <section class="leaders_container">
+
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/adult-beach-casual-736716.jpg" style="width:100%">
+                    <div class="text">CEO John Doe</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/beautiful-beauty-blurred-background-1239291.jpg" style="width:100%">
+                    <div class="text">VP Jane Doe</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/boy-casual-eyes-1222271.jpg" style="width:100%">
+                    <div class="text">Director of Operations Steve </div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 5000); // Change image every 2 seconds
+                }
+            </script>
+        </section>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
