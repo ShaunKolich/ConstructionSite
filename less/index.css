@@ -258,7 +258,7 @@ table {
 }
 .main_container .leaders_container {
   padding-top: 20px;
-  height: 10%;
+  height: 100%;
   width: 50%;
   background-color: gray;
   margin: 0 auto;
@@ -285,7 +285,7 @@ table {
   font-size: 30px !important;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0px;
+  top: 0px;
   width: 100%;
   font-weight: 900;
   text-align: center;

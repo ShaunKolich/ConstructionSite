@@ -285,8 +285,9 @@ table {
   font-size: 30px !important;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0px;
+  top: 0px;
   width: 100%;
+  font-weight: 900;
   text-align: center;
 }
 .main_container .leaders_container .numbertext {
