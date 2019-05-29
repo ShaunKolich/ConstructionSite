@@ -135,7 +135,6 @@ table {
 .main_container {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 .main_container .top_translate_container {
   width: 100%;
@@ -437,4 +436,11 @@ table {
 }
 .main_container .bottom_image #btn:hover {
   background-color: #ffa318;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #3f3e3e;
+  color: white;
+  text-align: center;
 }
