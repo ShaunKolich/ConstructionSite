@@ -208,6 +208,29 @@ table {
         background-repeat: no-repeat;
         background-size: cover;
 
+        #services {
+            display: flex;
+            flex-direction: row;
+
+            .services_info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                height: 100%;
+                border: 1px solid grey;
+                margin-right: 25px;
+                box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
+
+                i {
+                    color: rgb(255, 163, 24);
+                    font-size: 50px;
+
+                }
+            }
+        }
+
         .info_container {
             width: 100%;
             height: 700px;
@@ -234,7 +257,10 @@ table {
                 width: 450px;
                 // margin-bottom:100px;
             }
-        }
+
+
+            }
+
 
         .top_nav_bar {
             width: 70%;
@@ -674,10 +700,14 @@ table {
 }
 
 footer {
-    margin-top:40px;
-     width: 100%;
+    margin-top: 40px;
+    width: 100%;
     height: 50px;
     background-color: rgb(63, 62, 62);
     color: white;
     text-align: center;
+}
+
+#services_footer {
+    margin-top: 150px;
 }
