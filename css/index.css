@@ -704,6 +704,15 @@ footer {
     width: 100%;
     height: 100%;
   }
+  .main_container .bottom_image #btn {
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+  }
+  .main_container .content img {
+    width: 175px!important;
+    height: 175px!important;
+  }
   .main_container #home_middle {
     margin-bottom: -250px;
   }
