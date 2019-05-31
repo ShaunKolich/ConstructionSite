@@ -820,10 +820,13 @@ footer {
   }
   .main_container .middle_container .info_container .form_container {
     width: 300px;
-    margin-left: -150px;
+    margin-left: -50px;
   }
   .main_container .middle_container .info_container .form_container .form_header {
-    width: 300px;
+    width: 100%;
+  }
+  .main_container .middle_container .info_container .form_container .form {
+    width: 100%;
   }
   .main_container .middle_container .info_container #about_us {
     width: 400px !important;
