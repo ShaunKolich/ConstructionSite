@@ -350,6 +350,9 @@ table {
   background-color: #f8f4f4;
   margin-top: -45px;
 }
+.main_container .middle_container .top_nav_bar i {
+  display: none;
+}
 .main_container .middle_container .top_nav_bar nav {
   width: 100%;
   height: 100%;
@@ -703,6 +706,18 @@ footer {
     width: 100%;
     height: 100%;
   }
+  .main_container .logo_contact_container .contact_info ul {
+    height: 200px;
+  }
+  .main_container .logo_contact_container .contact_info .fa-map-marker {
+    font-size: 1.6rem;
+    color: yellow;
+  }
+  .main_container .logo_contact_container .contact_info #services_span {
+    font-size: 1.2rem;
+    margin-right: 4.5rem;
+    color: lightgrey;
+  }
   .main_container .bottom_image #btn {
     position: absolute;
     margin-left: 100px;
@@ -738,6 +753,7 @@ footer {
   }
   .main_container #services #box1 i {
     margin-top: 20px;
+    display: block !important;
   }
   .main_container #services #box2 {
     margin-top: 10px !important;
@@ -746,6 +762,7 @@ footer {
   }
   .main_container #services #box2 i {
     margin-top: 20px;
+    display: block !important;
   }
   .main_container #services #box3 {
     margin-top: 10px !important;
@@ -754,6 +771,7 @@ footer {
   }
   .main_container #services #box3 i {
     margin-top: 20px;
+    display: block !important;
   }
   #services_footer {
     margin-top: 720px;
@@ -777,5 +795,53 @@ footer {
   }
   .main_container .bottom_image #btn {
     margin-left: 230px;
+  }
+}
+@media (max-width: 500px) {
+  .main_container {
+    width: 100%;
+    border: 2px solid blue;
+  }
+  .main_container .logo_contact_container .contact_info {
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -10px;
+  }
+  .main_container .logo_contact_container .contact_info ul {
+    font-size: 10pt;
+  }
+  .main_container .logo_contact_container .contact_info ul span {
+    display: none;
+  }
+  .main_container .logo_contact_container .contact_info ul i {
+    padding-top: 50px;
+  }
+  .main_container .middle_container .top_nav_bar {
+    width: 175px;
+  }
+  .main_container .middle_container .top_nav_bar .fa-bars {
+    display: block;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .main_container .middle_container .top_nav_bar nav {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  .main_container .middle_container .top_nav_bar nav a {
+    border: 1px solid lightgrey !important;
+    background-color: #3f3e3e;
+    padding-top: 10px;
+    color: white;
+  }
+  .main_container .middle_container .top_nav_bar .nav_show {
+    display: none;
   }
 }
