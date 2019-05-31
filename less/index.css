@@ -844,4 +844,21 @@ footer {
   .main_container .middle_container .top_nav_bar .nav_show {
     display: none;
   }
+  .main_container .slogan_container {
+    width: 100% !important;
+  }
+  .main_container .slogan_container h2 {
+    font-size: 16pt;
+  }
+  .main_container .bottom_image span {
+    border: 2px solid red;
+    font-size: 22pt!important;
+  }
+  .main_container .bottom_image #second_item {
+    font-size: 14pt!important;
+  }
+  .main_container .bottom_image #btn {
+    margin-top: 10px;
+    margin-left: 360px;
+  }
 }
