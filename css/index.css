@@ -747,7 +747,7 @@ footer {
     flex-direction: column !important;
   }
   .main_container #services #box1 {
-    margin-top: 300px !important;
+    margin-top: 350px !important;
     width: 500px !important;
     height: 500px !important;
   }
@@ -800,7 +800,6 @@ footer {
 @media (max-width: 500px) {
   .main_container {
     width: 100%;
-    border: 2px solid blue;
   }
   .main_container .logo_contact_container .contact_info {
     width: 100px;
@@ -815,6 +814,12 @@ footer {
   }
   .main_container .logo_contact_container .contact_info ul i {
     padding-top: 50px;
+  }
+  .main_container .middle_container .info_container {
+    margin-top: 150px;
+  }
+  .main_container .middle_container .info_container #about_us {
+    width: 400px!important;
   }
   .main_container .middle_container .top_nav_bar {
     width: 175px;
@@ -834,6 +839,9 @@ footer {
     align-items: center;
     justify-content: center;
     height: 200px;
+    position: absolute;
+    margin-left: 37px;
+    width: 100px;
   }
   .main_container .middle_container .top_nav_bar nav a {
     border: 1px solid lightgrey !important;
@@ -851,7 +859,6 @@ footer {
     font-size: 16pt;
   }
   .main_container .bottom_image span {
-    border: 2px solid red;
     font-size: 22pt!important;
   }
   .main_container .bottom_image #second_item {
