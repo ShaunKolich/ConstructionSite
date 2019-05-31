@@ -819,11 +819,11 @@ footer {
     margin-top: 150px;
   }
   .main_container .middle_container .info_container .form_container {
-    width: 450px;
+    width: 300px;
     margin-left: -150px;
   }
   .main_container .middle_container .info_container .form_container .form_header {
-    width: 448px;
+    width: 300px;
   }
   .main_container .middle_container .info_container #about_us {
     width: 400px !important;
