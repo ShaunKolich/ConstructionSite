@@ -238,6 +238,7 @@ table {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
       .form_container {
         max-width: 510px;
         min-width: 324px;
@@ -255,6 +256,7 @@ table {
           align-items: center;
           justify-content: center;
           background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px;
+
           h1 {
             font-family: "Lato", sans-serif;
             font-weight: 300;
@@ -266,6 +268,7 @@ table {
             padding: 0 0 0.4em 0;
             color: white;
           }
+
           h3 {
             font-family: "Lato", sans-serif;
             font-weight: 400;
@@ -274,8 +277,9 @@ table {
             color: white;
           }
         }
+
         form {
-          display: flex;
+          // display: flex;
           border: 1px solid lightgrey;
           max-width: 500px;
           height: 500px;
@@ -285,22 +289,27 @@ table {
             margin: 0;
             padding: 0;
             list-style: none;
+
             li {
               margin: 0;
               clear: both;
               display: inline-block;
               width: 100%;
+
               &:last-child {
                 margin: 0;
               }
+
               p {
                 margin: 0 0 1.25em 0;
                 padding: 0;
                 float: left;
+
                 &.right {
                   float: right;
                 }
               }
+
               .divider {
                 margin: 0.5em 0 0.5em 0;
                 border: 0;
@@ -310,17 +319,20 @@ table {
                 background-color: blue;
                 background-image: linear-gradient(to right, pink, blue);
               }
+
               .req {
                 color: pink;
               }
             }
           }
+
           label {
             display: block;
             margin: 0 0 0.5em 0;
             color: blue;
             font-size: 14px;
           }
+
           input {
             margin: 0 0 0.5em 0;
             border: 1px solid grey;
@@ -328,16 +340,19 @@ table {
             color: black;
             font-size: 14px;
           }
+
           textarea {
             border: 1px solid grey;
             padding: 6px 10px;
             width: 100%;
             color: black;
           }
+
           small {
             color: blue;
             margin: 0 0 0 0.5em;
           }
+
           .btn {
             font-size: 12pt;
             display: inline-block;
@@ -350,15 +365,18 @@ table {
             border: darken(grey, 10%);
             font-family: "Lato", sans-serif;
             font-weight: 300;
+
             &.btn-submit {
               background-color: blue;
             }
           }
+
           .btn:hover {
             background-color: lighten(blue, 10%);
           }
         }
       }
+
       h2 {
         font-size: 24pt;
         margin-bottom: 40px;
@@ -807,6 +825,7 @@ footer {
 #services_footer {
   margin-top: 150px;
 }
+
 .contact_footer {
   margin-top: 180px;
 }
@@ -815,6 +834,7 @@ footer {
   .main_container {
     width: 100%;
     height: 100%;
+
     // border: 2px solid red;
     .bottom_image {
       #btn {
@@ -824,28 +844,35 @@ footer {
         width: 200px;
       }
     }
-.content{
-    // border:2px solid red;
-    // height:700px;
-    img{
-        width:175px!important;
-        height:175px!important;
+
+    .content {
+
+      // border:2px solid red;
+      // height:700px;
+      img {
+        width: 175px !important;
+        height: 175px !important;
+      }
     }
-}
+
     #home_middle {
       // border:2px solid red;
       margin-bottom: -250px;
     }
+
     .info_container {
       margin-top: 100px;
+
       // border: 2px solid blue;
       img {
         margin-bottom: 0px;
       }
     }
+
     .slogan_container {
       margin-top: 350px !important;
     }
+
     #home {
       width: 600px;
       // border:2px solid red;
@@ -856,37 +883,84 @@ footer {
       // border:2px solid red;
       display: flex;
       flex-direction: column !important;
+
       #box1 {
         margin-top: 300px !important;
         width: 500px !important;
         height: 500px !important;
+
         i {
           margin-top: 20px;
         }
       }
+
       #box2 {
         margin-top: 10px !important;
         width: 500px !important;
         height: 500px !important;
+
         i {
           margin-top: 20px;
         }
       }
+
       #box3 {
         margin-top: 10px !important;
         width: 500px !important;
         height: 500px !important;
+
         i {
           margin-top: 20px;
         }
       }
     }
   }
+
   #services_footer {
     margin-top: 720px;
   }
+
   .contact_footer {
     // border:2px solid red;
     margin-top: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main_container {
+    width: 100%;
+
+    // border: 2px solid red;
+    .middle_container {
+
+      // border: 2px solid red;
+      .top_nav_bar {
+        width: 80%;
+      }
+    }
+
+    .bottom_image {
+
+      // border:2px solid black;
+      h2 {
+
+        // border:2px solid red;
+        span {
+          font-size: 28pt;
+        }
+      }
+
+      p {
+        span {
+          // border:2px solid red;
+          font-size: 16pt !important;
+
+        }
+      }
+
+      #btn {
+        margin-left: 230px;
+      }
+    }
   }
 }

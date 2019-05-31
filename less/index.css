@@ -249,7 +249,6 @@ table {
   color: white;
 }
 .main_container .middle_container .info_container .form_container form {
-  display: flex;
   border: 1px solid lightgrey;
   max-width: 500px;
   height: 500px;
@@ -710,8 +709,8 @@ footer {
     width: 200px;
   }
   .main_container .content img {
-    width: 175px!important;
-    height: 175px!important;
+    width: 175px !important;
+    height: 175px !important;
   }
   .main_container #home_middle {
     margin-bottom: -250px;
@@ -761,5 +760,22 @@ footer {
   }
   .contact_footer {
     margin-top: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .main_container {
+    width: 100%;
+  }
+  .main_container .middle_container .top_nav_bar {
+    width: 80%;
+  }
+  .main_container .bottom_image h2 span {
+    font-size: 28pt;
+  }
+  .main_container .bottom_image p span {
+    font-size: 16pt !important;
+  }
+  .main_container .bottom_image #btn {
+    margin-left: 230px;
   }
 }
