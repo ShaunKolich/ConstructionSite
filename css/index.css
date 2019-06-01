@@ -172,12 +172,9 @@ table {
   margin-right: 4.5rem;
   color: lightgrey;
 }
-.main_container #about_background {
-  background-image: none !important;
-}
 .main_container .middle_container {
   width: 100%;
-  height: 600px;
+  height: 100%;
   display: flex;
   justify-content: center;
   background-image: url("../img/blueprints-entrepreneur-hands-110469.jpg");
@@ -204,9 +201,14 @@ table {
   color: #ffa318;
   font-size: 50px;
 }
+.main_container .middle_container #about_background {
+  background-image: none !important;
+  border: 2px solid red !important;
+}
 .main_container .middle_container .info_container {
   width: 100%;
-  height: 700px;
+  height: 100%;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
