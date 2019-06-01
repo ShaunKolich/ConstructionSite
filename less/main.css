@@ -440,10 +440,17 @@ footer {
   color: white;
   text-align: center;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .main_container-fluid {
     height: 100%;
     width: 100%;
+  }
+  .main_container-fluid .logo_contact_container .contact_info i {
+    font-size: 6vh;
+    width: 100%;
+  }
+  .main_container-fluid .logo_contact_container .contact_info ul span {
+    display: none;
   }
   .main_container-fluid .middle_container .top_nav_bar {
     margin-top: 0% !important;
