@@ -136,6 +136,31 @@ table {
   width: 100%;
   height: 100%;
 }
+.main_container-fluid .link_with_us {
+  margin-top: 10%;
+  font-size: 4vh;
+  font-weight: 700;
+  color: black;
+}
+.main_container-fluid .social_media_icons {
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.main_container-fluid .social_media_icons .fa-facebook {
+  font-size: 8vh;
+  color: blue;
+}
+.main_container-fluid .social_media_icons .fa-twitter {
+  font-size: 8vh;
+  color: lightblue;
+}
+.main_container-fluid .social_media_icons .fa-map-marker {
+  font-size: 8vh;
+  color: gold;
+}
 .main_container-fluid .top_translate_container {
   height: 50px;
   background-color: #2e2d2d;
@@ -171,6 +196,30 @@ table {
   color: lightgrey;
   align-self: center;
 }
+.main_container-fluid #about_background {
+  background-image: url('../img/businessman-collaborate-collaboration-872957\ \(1\).jpg');
+  height: 400px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_container-fluid .info_container {
+  margin-top: 0%;
+  width: 100%;
+  height: 150%;
+}
+.main_container-fluid .info_container h2 {
+  font-size: 3vh;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5%;
+  padding-top: 5%;
+}
+.main_container-fluid .info_container p {
+  font-size: 2.5vh;
+  line-height: -1;
+}
 .main_container-fluid .middle_container {
   width: 100%;
   height: 600px;
@@ -189,6 +238,7 @@ table {
   justify-content: center;
   align-items: center;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
+  z-index: 1000;
 }
 .main_container-fluid .middle_container .top_nav_bar a {
   margin-right: 3.5rem;
@@ -210,6 +260,7 @@ table {
 .main_container-fluid .middle_container .top_nav_bar .nav_bar {
   display: block;
   position: absolute;
+  z-index: 1;
   font-size: 40px;
   margin-left: 70px;
   margin-top: 15px;
