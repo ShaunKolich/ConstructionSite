@@ -171,6 +171,9 @@ table {
   color: lightgrey;
   align-self: center;
 }
+.main_container-fluid #about_background {
+  background-image: none !important;
+}
 .main_container-fluid .middle_container {
   width: 100%;
   height: 600px;
@@ -179,6 +182,9 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
+}
+.main_container-fluid .middle_container #about_background {
+  background-image: none !important;
 }
 .main_container-fluid .middle_container .top_nav_bar {
   width: 100%;
