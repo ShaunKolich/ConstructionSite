@@ -1,0 +1,548 @@
+//testing Grid System/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+    color: #787878;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.main_container-fluid {
+    width: 100%;
+    height: 10000px;
+    // border: 2px solid red;
+
+    .top_translate_container {
+        // border:2px solid blue;
+        height: 50px;
+        background-color: #2e2d2d;
+    }
+
+    .logo_contact_container {
+        height: 180px;
+        background-color: rgb(63, 62, 62);
+
+        // border:2px solid purple;
+        .logo {
+            // border: 2px solid red;
+            height: 125px;
+
+            img {
+                object-fit: scale-down;
+                width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        .contact_info {
+            // border:2px solid black;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            align-self: center;
+
+            i {
+                font-size: 1.6rem;
+                color: yellow;
+                align-self: center;
+                // padding-left:10px;
+            }
+
+            ul {
+                font-size: 1.2rem;
+                margin-right: 4.5rem;
+                color: lightgrey;
+                align-self: center;
+
+            }
+        }
+    }
+
+    .middle_container {
+        width: 100%;
+        height: 600px;
+        // border: 2px solid red;
+        background-image: url("../img/blueprints-entrepreneur-hands-110469.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+
+        .top_nav_bar {
+            // border: 2px solid red;
+            width: 100%;
+            height: 80px;
+            margin-top: -40px;
+            background-color: rgb(248, 244, 244);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+                0 10px 12px rgba(0, 0, 0, 0.22);
+
+            a {
+                // margin-top: 20px;
+
+                margin-right: 3.5rem;
+                // border: 1px solid grey;
+                text-align: center;
+                height: 100px;
+                line-height: 1;
+                font-family: "Open Sans", Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                text-transform: none;
+                color: #787878;
+                text-decoration: none;
+                background-color: rgb(248, 244, 244);
+            }
+
+            a:hover {
+                border-bottom: 2px solid gold;
+            }
+
+
+            .fa-bars {
+                // border: 2px solid red;
+                display: block;
+                position: absolute;
+                font-size: 40px;
+                margin-left: 70px;
+                margin-top: 15px;
+                cursor: pointer;
+                display: none;
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+    .bottom_info {
+        border: 1px solid lightgrey;
+
+        .slogan_container {
+            // margin: 0 auto;
+            width: 50%;
+            height: 100px;
+            // border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            background-color: lightgrey;
+
+            h2 {
+                font-size: 3vh;
+            }
+        }
+
+        .num_of_emp {}
+
+        .num_of_emp {
+            width: 100%;
+            height: 100px;
+            // border: 1px solid rgb(223, 216, 216);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+
+            i {
+                font-size: 24pt;
+                color: rgb(255, 163, 24);
+            }
+
+            p {
+                font-size: 1rem;
+                color: rgb(255, 163, 24);
+                padding: 10px;
+            }
+        }
+
+        .num_years {
+            width: 100%;
+            height: 100px;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+
+            i {
+                font-size: 24pt;
+                color: rgb(255, 163, 24);
+            }
+
+            p {
+                font-size: 1rem;
+                color: rgb(255, 163, 24);
+                padding: 10px;
+            }
+        }
+
+        .num_projects {
+            width: 100%;
+            height: 100px;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 24pt;
+                color: rgb(255, 163, 24);
+            }
+
+            p {
+                font-size: 1rem;
+                color: rgb(255, 163, 24);
+                padding: 10px;
+            }
+        }
+
+    }
+
+    .our_projects {
+        // border: 2px solid red;
+        width: 100%;
+        height: 400px;
+        // border: 2px solid red;
+        background-color: rgb(63, 62, 62);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 24pt;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .button_container {
+            width: 100%;
+            height: 75px;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                text-align: center;
+                margin-top: 10px;
+                margin-right: 50px;
+                padding-top: 10px;
+                cursor: pointer;
+                height: 40px;
+                width: 120px;
+                background-color: rgb(63, 62, 62);
+                color: white;
+                border: rgb(63, 62, 62);
+                font-size: 12pt;
+            }
+
+            ul:hover {
+                border-bottom: 2px solid rgb(255, 163, 24);
+                color: white;
+
+            }
+        }
+
+
+    }
+
+    .bottom_image_container {
+        width: 100%;
+        height: 600px;
+        // border: 2px solid red;
+        background-image: url("../img/architecture-building-center-27406.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bottom_info_content {
+        width: 100%;
+        height: 50px;
+        // border: 2px solid red;
+
+        h2 {
+            font-size: 24pt;
+            margin-left: 5%;
+            margin-top: 20px;
+            color: black;
+        }
+
+
+    }
+
+   .content_container{
+       height:100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    //    border:2px solid black;
+       img {
+        width: 300px;
+        height: 250px;
+      
+      }
+
+      h3 {
+        font-size: 18pt;
+        margin-top: 20px;
+      }
+
+      p {
+        width: 80%;
+        font-size: 12pt;
+        margin-top: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(255, 163, 24);
+        margin-top: 20px;
+        font-size: 12pt;
+      }
+   }
+    
+
+}
+
+
+// Media queries
+@media(max-width: 600px) {
+
+    .main_container-fluid {
+        border: 2px solid rgb(161, 115, 115);
+
+        .top_nav_bar {
+            margin-top: 0px !important;
+            border: 2px solid red;
+            width: 100% !important;
+        }
+
+    }
+
+    .bottom_info {
+        border: 2px solid red;
+
+
+
+        .slogan_container {
+            margin: 0 auto;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    .bottom_info_content {
+        width: 100%;
+        height: 600px;
+        // border: 2px solid red;
+
+        h2 {
+            font-size: 24pt;
+            margin-left: 5%;
+            margin-top: 20px;
+            color: black;
+        }
+
+        .content_container {
+            width: 100%;
+            height: 540px;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .content {
+                width: 25%;
+                height: 80%;
+                margin-right: 2.5%;
+                margin-top: 20px;
+                // border: 2px solid blue;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 300px;
+                    height: 250px;
+                }
+
+                h3 {
+                    font-size: 18pt;
+                    margin-top: 20px;
+                }
+
+                p {
+                    width: 80%;
+                    font-size: 12pt;
+                    margin-top: 20px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(255, 163, 24);
+                    margin-top: 20px;
+                    font-size: 12pt;
+                }
+            }
+        }
+    }
+    .content_container{
+        border:2px solid blue;
+        display: flex;
+        align-items: center;
+        img{
+          margin:0 auto!important;
+           border:2px solid blue;
+        }
+    }
+
+}

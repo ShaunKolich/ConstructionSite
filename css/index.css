@@ -358,16 +358,12 @@ table {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
 .main_container .middle_container .top_nav_bar nav a {
   width: 175px;
   height: 40%;
   border-left: 1px solid grey;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   line-height: 1;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;

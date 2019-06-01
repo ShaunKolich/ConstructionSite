@@ -1,0 +1,436 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  color: #787878;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.main_container-fluid {
+  width: 100%;
+  height: 10000px;
+}
+.main_container-fluid .top_translate_container {
+  height: 50px;
+  background-color: #2e2d2d;
+}
+.main_container-fluid .logo_contact_container {
+  height: 180px;
+  background-color: #3f3e3e;
+}
+.main_container-fluid .logo_contact_container .logo {
+  height: 125px;
+}
+.main_container-fluid .logo_contact_container .logo img {
+  object-fit: scale-down;
+  width: 100%;
+  max-height: 100%;
+}
+.main_container-fluid .logo_contact_container .contact_info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: center;
+}
+.main_container-fluid .logo_contact_container .contact_info i {
+  font-size: 1.6rem;
+  color: yellow;
+  align-self: center;
+}
+.main_container-fluid .logo_contact_container .contact_info ul {
+  font-size: 1.2rem;
+  margin-right: 4.5rem;
+  color: lightgrey;
+  align-self: center;
+}
+.main_container-fluid .middle_container {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/blueprints-entrepreneur-hands-110469.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.main_container-fluid .middle_container .top_nav_bar {
+  width: 100%;
+  height: 80px;
+  margin-top: -40px;
+  background-color: #f8f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
+}
+.main_container-fluid .middle_container .top_nav_bar a {
+  margin-right: 3.5rem;
+  text-align: center;
+  height: 100px;
+  line-height: 1;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: none;
+  color: #787878;
+  text-decoration: none;
+  background-color: #f8f4f4;
+}
+.main_container-fluid .middle_container .top_nav_bar a:hover {
+  border-bottom: 2px solid gold;
+}
+.main_container-fluid .middle_container .top_nav_bar .fa-bars {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none;
+}
+.main_container-fluid .bottom_info {
+  border: 1px solid lightgrey;
+}
+.main_container-fluid .bottom_info .slogan_container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: lightgrey;
+}
+.main_container-fluid .bottom_info .slogan_container h2 {
+  font-size: 3vh;
+}
+.main_container-fluid .bottom_info .num_of_emp {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.main_container-fluid .bottom_info .num_of_emp i {
+  font-size: 24pt;
+  color: #ffa318;
+}
+.main_container-fluid .bottom_info .num_of_emp p {
+  font-size: 1rem;
+  color: #ffa318;
+  padding: 10px;
+}
+.main_container-fluid .bottom_info .num_years {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.main_container-fluid .bottom_info .num_years i {
+  font-size: 24pt;
+  color: #ffa318;
+}
+.main_container-fluid .bottom_info .num_years p {
+  font-size: 1rem;
+  color: #ffa318;
+  padding: 10px;
+}
+.main_container-fluid .bottom_info .num_projects {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container-fluid .bottom_info .num_projects i {
+  font-size: 24pt;
+  color: #ffa318;
+}
+.main_container-fluid .bottom_info .num_projects p {
+  font-size: 1rem;
+  color: #ffa318;
+  padding: 10px;
+}
+.main_container-fluid .our_projects {
+  width: 100%;
+  height: 400px;
+  background-color: #3f3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_container-fluid .our_projects h1 {
+  font-size: 24pt;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+}
+.main_container-fluid .our_projects .button_container {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+.main_container-fluid .our_projects .button_container ul {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding-top: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  background-color: #3f3e3e;
+  color: white;
+  border: #3f3e3e;
+  font-size: 12pt;
+}
+.main_container-fluid .our_projects .button_container ul:hover {
+  border-bottom: 2px solid #ffa318;
+  color: white;
+}
+.main_container-fluid .bottom_image_container {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/architecture-building-center-27406.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_container-fluid .bottom_info_content {
+  width: 100%;
+  height: 50px;
+}
+.main_container-fluid .bottom_info_content h2 {
+  font-size: 24pt;
+  margin-left: 5%;
+  margin-top: 20px;
+  color: black;
+}
+.main_container-fluid .content_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container-fluid .content_container img {
+  width: 300px;
+  height: 250px;
+}
+.main_container-fluid .content_container h3 {
+  font-size: 18pt;
+  margin-top: 20px;
+}
+.main_container-fluid .content_container p {
+  width: 80%;
+  font-size: 12pt;
+  margin-top: 20px;
+}
+.main_container-fluid .content_container a {
+  text-decoration: none;
+  color: #ffa318;
+  margin-top: 20px;
+  font-size: 12pt;
+}
+@media (max-width: 600px) {
+  .main_container-fluid {
+    border: 2px solid #a17373;
+  }
+  .main_container-fluid .top_nav_bar {
+    margin-top: 0px !important;
+    border: 2px solid red;
+    width: 100% !important;
+  }
+  .bottom_info {
+    border: 2px solid red;
+  }
+  .bottom_info .slogan_container {
+    margin: 0 auto;
+  }
+  .bottom_info .slogan_container h2 {
+    text-align: center;
+  }
+  .bottom_info_content {
+    width: 100%;
+    height: 600px;
+  }
+  .bottom_info_content h2 {
+    font-size: 24pt;
+    margin-left: 5%;
+    margin-top: 20px;
+    color: black;
+  }
+  .bottom_info_content .content_container {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom_info_content .content_container .content {
+    width: 25%;
+    height: 80%;
+    margin-right: 2.5%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottom_info_content .content_container .content img {
+    width: 300px;
+    height: 250px;
+  }
+  .bottom_info_content .content_container .content h3 {
+    font-size: 18pt;
+    margin-top: 20px;
+  }
+  .bottom_info_content .content_container .content p {
+    width: 80%;
+    font-size: 12pt;
+    margin-top: 20px;
+  }
+  .bottom_info_content .content_container .content a {
+    text-decoration: none;
+    color: #ffa318;
+    margin-top: 20px;
+    font-size: 12pt;
+  }
+  .content_container {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+  }
+  .content_container img {
+    margin: 0 auto!important;
+    border: 2px solid blue;
+  }
+}
