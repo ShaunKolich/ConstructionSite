@@ -23,5 +23,5 @@ console.log(navBarToggle);
 
 navBarToggle.addEventListener('click', function () {
     console.log('hello');
-    mainNav.classList.toggle('nav_show');
+    mainNav.classList.toggle('navhide');
 });
