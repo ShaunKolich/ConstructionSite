@@ -358,6 +358,7 @@ table {
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
 .main_container .middle_container .top_nav_bar nav a {
@@ -873,5 +874,8 @@ footer {
   .main_container .bottom_image #btn {
     margin-top: 10px;
     margin-left: 360px;
+  }
+  .main_container .bottom_image h2 {
+    display: none;
   }
 }
