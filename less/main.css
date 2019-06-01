@@ -444,6 +444,21 @@ footer {
   .main_container-fluid {
     height: 100%;
     width: 100%;
+    border: 2px solid red;
+  }
+  .main_container-fluid .logo_contact_container {
+    border: 2px solid blue;
+  }
+  .main_container-fluid .logo_contact_container .contact_info {
+    border: 2px solid black;
+  }
+  .main_container-fluid .logo_contact_container .contact_info i {
+    font-size: 6vh;
+    width: 100%;
+  }
+  .main_container-fluid .logo_contact_container .contact_info ul span {
+    border: 2px solid black;
+    display: none;
   }
   .main_container-fluid .middle_container .top_nav_bar {
     margin-top: 0% !important;
